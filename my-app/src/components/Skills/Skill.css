@@ -1,0 +1,193 @@
+.skill-container {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: flex-start;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  max-width: 800px;
+  margin: 20px auto;
+}
+
+.skill-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.skill-header .avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 2px solid #ccc;
+}
+
+.skill-comments .avatar {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  border: 2px solid #ccc;
+}
+
+.skill-header .user-info {
+  flex: 1;
+  text-align: left;
+}
+
+.skill-header .user-info p {
+  margin: 0;
+  font-size: 0.9em;
+  color: #666;
+}
+
+.skill-header .user-info h3 {
+  margin: 5px 0 0;
+  font-size: 1.1em;
+  color: #333;
+}
+
+.skill-header .follow-button {
+  background: white;
+  color: black;
+  border: 1px solid #ddd;
+  border-radius: 20px;
+  padding: 5px 10px;
+  font-size: 0.9em;
+  cursor: pointer;
+}
+
+.skill-header .follow-button:hover {
+  background: #f5f5f5;
+}
+
+.skill-header .stats {
+  font-size: 0.9em;
+  color: #888;
+}
+
+.skill-header .like-button {
+  background: none;
+  border: none;
+  font-size: 1.2em;
+  color: red;
+  cursor: pointer;
+}
+
+.skill-gallery {
+  flex: 1;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.skill-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  text-align: center;
+  margin-left: 20px;
+}
+
+.skill-image {
+  width: 350px;
+  height: 450px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  border: none;
+  padding: 5px;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+button.prev-image {
+  left: -15px;
+}
+
+button.next-image {
+  right: -15px;
+}
+
+.skill-footer {
+  flex: 1;
+  text-align: right;
+  margin-left: 20px;
+}
+
+.skill-description {
+  font-size: 1em;
+  color: #555;
+}
+
+.skill-hearts {
+  color: red;
+  cursor: pointer;
+}
+
+.skill-comments {
+  margin-top: 20px;
+  border-top: 1px solid #ccc;
+  padding-top: 20px;
+  display: grid;
+  flex-direction: column;
+  align-items: flex-end;
+  text-align: left;
+}
+
+.skill-comments h4 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.skill-comments ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.skill-comments li {
+  padding: 8px;
+  background-color: #f5f5f5;
+  margin-bottom: 5px;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.add-comment {
+  display: flex;
+  flex-direction: row;
+  margin-top: 15px;
+}
+
+.add-comment .MuiTextField-root {
+  flex-grow: 1;
+  margin-right: 10px;
+}
+
+.add-comment .send-button {
+  background-color: #FF4A5E;
+  color: white;
+  border: none;
+  padding: 12px;
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.add-comment .send-button:hover {
+  background-color: #ff2d3b;
+}

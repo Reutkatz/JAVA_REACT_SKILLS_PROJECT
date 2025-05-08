@@ -1,0 +1,26 @@
+.whatsapp-link {
+    color: #25D366; 
+    font-size: 24px; 
+    margin-right: 10px;
+    text-decoration: none;  
+  }
+  
+  .whatsapp-link:hover {
+    color: #1ebe57; 
+  }
+  .phone-link {
+    color: #007BFF; 
+    font-size: 18px; 
+    text-decoration: none; 
+    display: flex;
+    align-items: center;
+  }
+  
+  .phone-link i {
+    margin-right: 8px; 
+    font-size: 20px; 
+  }
+  
+  .phone-link:hover {
+    color: #0056b3; 
+  }
